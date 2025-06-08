@@ -1,17 +1,18 @@
 package br.com.fintech.valoresareceber.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
 
-@Entity
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class FAQItem {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+
+    public static final String FIRESTORE_COLLECTION_NAME = "faqItens";
+
+    // private String id; // Opcional: para armazenar o ID do documento do Firestore
     private String pergunta;
     private String resposta;
+
 }
