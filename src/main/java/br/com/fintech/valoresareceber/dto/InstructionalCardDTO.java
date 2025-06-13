@@ -2,7 +2,7 @@ package br.com.fintech.valoresareceber.dto;
 
 import java.util.List;
 
-public class GuideStepDTO {
+public class InstructionalCardDTO {
     private String title;
     private List<String> steps;
 
