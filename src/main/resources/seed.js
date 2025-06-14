@@ -405,7 +405,7 @@ const productsData = [
         "Previsibilidade",
         "Garantia do FGC",
       ],
-      link: "https://www.bancoparceiro.com.br/investimentos/renda-fixa",
+      link: "https://banco.bradesco/html/classic/portal-investimentos/renda-fixa.shtm",
     },
   },
   {
@@ -419,7 +419,7 @@ const productsData = [
         "Garantia do FGC",
         "Cobertura automática",
       ],
-      link: "https://www.bancoparceiro.com.br/servicos/poupanca",
+      link: "https://banco.bradesco/html/classic/portal-investimentos/poupanca-facil.shtm",
     },
   },
 ];
