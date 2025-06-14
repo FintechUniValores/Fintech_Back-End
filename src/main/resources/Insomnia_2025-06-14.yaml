@@ -1,0 +1,130 @@
+type: collection.insomnia.rest/5.0
+name: Fintech Back End
+meta:
+  id: wrk_4c54522b6d5345e09ee7a6dadc710163
+  created: 1749751363633
+  modified: 1749751363633
+collection:
+  - url: http://localhost:8080/api/content/faqs
+    name: Faqs
+    meta:
+      id: req_ec32f4ce38ac4601b588a8b6dfa4f8b9
+      created: 1749751381300
+      modified: 1749779097031
+      isPrivate: false
+      sortKey: -1749751381300
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+        id: pair_622d97149b0b4d8386dddcfb3bee5ade
+      - id: pair_c59b127591e44de681c3ad6a96213c5f
+        name: X-Session-ID
+        value: teste123
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/api/content/guides
+    name: Guides
+    meta:
+      id: req_4886cd0f776848dfb81bd82f047875ab
+      created: 1749779055182
+      modified: 1749779113777
+      isPrivate: false
+      sortKey: -1749779055182
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+        id: pair_bc3abfa598e944eb8e6cff28a726d2be
+      - id: pair_84e1b760c092484babf0f009956d53ed
+        name: X-Session-ID
+        value: teste123
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/api/content/products
+    name: Products
+    meta:
+      id: req_4b127b87844e41268ce30d7b011916cf
+      created: 1749779122291
+      modified: 1749779198565
+      isPrivate: false
+      sortKey: -1749765218241
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+        id: pair_bc3abfa598e944eb8e6cff28a726d2be
+      - id: pair_84e1b760c092484babf0f009956d53ed
+        name: X-Session-ID
+        value: teste123
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/api/content/gov-requirements
+    name: Gov Requirements
+    meta:
+      id: req_d6a48cf5596b443cac01a0ff7a726228
+      created: 1749779192858
+      modified: 1749779192858
+      isPrivate: false
+      sortKey: -1749758299770.5
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.2
+        id: pair_bc3abfa598e944eb8e6cff28a726d2be
+      - id: pair_84e1b760c092484babf0f009956d53ed
+        name: X-Session-ID
+        value: teste123
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_b2dfe9698d3744967ae5a7aaa3048f348a139180
+    created: 1749751363636
+    modified: 1749779068646
+  cookies:
+    - key: JSESSIONID
+      value: BFBB118B03926B5CF4651F2C6D6A7B3A
+      domain: localhost
+      path: /
+      httpOnly: true
+      hostOnly: true
+      creation: 2025-06-12T18:03:48.277Z
+      lastAccessed: 2025-06-13T01:44:28.646Z
+      id: b01e5d39-9893-4913-a175-c9de8998e1fc
+environments:
+  name: Base Environment
+  meta:
+    id: env_b2dfe9698d3744967ae5a7aaa3048f348a139180
+    created: 1749751363635
+    modified: 1749751363635
+    isPrivate: false
