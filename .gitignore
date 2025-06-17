@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignorar credenciais do Firebase
+serviceAccountKey.json
+
+# Ignora dependências do Node.js
+node_modules/
